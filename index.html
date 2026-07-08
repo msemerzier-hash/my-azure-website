@@ -1,16 +1,28 @@
-html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My DevOps Azure Site</title>
+    <title>FIFA World Cup 2026 Tracker</title>
     <style>
-        body { font-family: sans-serif; text-align: center; margin-top: 100px; background-color: #f4f4f9; }
-        h1 { color: #0078d4; }
+        body { font-family: 'Segoe UI', sans-serif; text-align: center; background-color: #0b1a30; color: #ffffff; padding-top: 50px; }
+        .container { max-width: 600px; margin: 0 auto; background: #162a45; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        h1 { color: #00df89; margin-bottom: 5px; }
+        .subtitle { color: #a0aec0; font-size: 1.1em; margin-bottom: 25px; }
+        .badge { display: inline-block; background-color: #0078d4; color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold; margin-bottom: 20px; }
+        .status { border-top: 1px solid #2d3748; padding-top: 20px; color: #e2e8f0; }
     </style>
 </head>
 <body>
-    <h1>Hello World! My Azure Static Site is Live.</h1>
-    <p>Deploying infrastructure via GitHub Actions.</p>
+    <div class="container">
+        <span class="badge">Live DevOps Pipeline</span>
+        <h1>FIFA World Cup 2026</h1>
+        <p class="subtitle">United States • Canada • Mexico</p>
+        
+        <div class="status">
+            <h3>⚽ Tournament Status: Live ⚽</h3>
+            <p>This page was instantly updated via GitHub Actions and hosted globally on Azure Static Web Apps.</p>
+        </div>
+    </div>
 </body>
 </html>
